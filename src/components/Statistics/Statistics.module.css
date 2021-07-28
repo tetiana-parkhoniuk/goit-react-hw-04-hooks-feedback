@@ -1,0 +1,15 @@
+.statList{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.statListItem:not(:last-child){
+margin-bottom: 10px;
+}
+
+.statNumber{
+    font-weight: bold;
+    color: royalblue;
+
+}

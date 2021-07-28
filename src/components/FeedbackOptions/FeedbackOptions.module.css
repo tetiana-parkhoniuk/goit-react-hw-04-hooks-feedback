@@ -1,0 +1,19 @@
+.feedbackBtn{
+    padding: 5px 10px;
+    height: 30px;
+    border: none;
+    border-radius: 7px;
+    text-transform: capitalize;
+    cursor: pointer;
+    ;
+}
+
+.feedbackBtn:not(:last-child){
+    margin-right: 10px;
+}
+
+.feedbackBtn:hover,
+.feedbackBtn:focus{
+background-color:royalblue;
+color: white;
+}
