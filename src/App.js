@@ -59,7 +59,7 @@ export default function App() {
         <Section title="Please leave feedback">
           <FeedbackOptions
             options={objectKeys}
-          onLeaveFeedback={(event) => dispatch({ type: event.target.name, payload:1})} />
+            onLeaveFeedback={(event) => dispatch({ type: event.target.name, payload:1})} />
         </Section>
 
         {total === 0 ? (<Notification message="No feedback given" />)
